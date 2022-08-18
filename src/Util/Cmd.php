@@ -91,4 +91,8 @@ class Cmd extends Command {
         }
     }
 
+    protected function IO(): SymfonyStyle {
+        return $this->io;
+    }
+
 }
